@@ -90,6 +90,7 @@ const sr = ScrollReveal({
    // reset: true, // Animations repeat
 })
 
+//those elements who have coffe, leaf or ice in names are not used anymore!
 sr.reveal(`.popular__swiper, .footer__container`)
 sr.reveal(`.home__shape`, {origin: 'bottom'})
 sr.reveal(`.home__coffee`, {delay: 1000, distance: '200px', duration: 1500})
